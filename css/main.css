@@ -1,0 +1,192 @@
+/*=============== reset ===================*/
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 1em;
+}
+
+body {
+	font-size: 100%;
+	max-width: 960px;
+	font-family: "trebuchet ms", georgia, sans-serif;
+	margin: 0 auto;
+}
+
+a img, :link img, :visited img {
+	border: 0;
+}
+
+h1, h2, h3, h4 {
+	color: #153414;
+}
+
+h1 {
+	font-size: 1.1em;
+	text-align: center;
+	padding: 1%;
+}
+
+h2 {
+	font-size: .8em;
+	text-align: center;
+	clear: both;
+	padding-top: 5%; 
+}
+
+#wrapper {
+	width: 100%;
+}
+
+.whiteh {
+	color: #fff;
+	text-align: center;
+	padding-top: 2%;
+}
+
+/* ================================== header ======================================== */
+
+#components {
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+.button {
+	color: #fef4e9;
+	border: solid 1px black;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#1f4b1d), to(#153414));
+	background: -moz-linear-gradient(top,  #1f4b1d,  #153414);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#1f4b1d', endColorstr='#153414');
+	margin-top: 50px;
+}
+
+.button:hover {
+	background: green;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+	background: -moz-linear-gradient(top,  #fff,  #fff);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#fff');
+	color: #153414;
+}
+
+.button:active {
+	color: #fcd3a5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#25d51f), to(#21bf1c));
+	background: -moz-linear-gradient(top,  #25d51f,  #21bf1c);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#25d51f', endColorstr='#21bf1c');
+}
+
+.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	display: inline;
+	vertical-align: baseline;
+	margin: 0% 0% 3.48837% 38.95348%; /*0px 0px 30px 335px;*/
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 1.125em; /*18px/100% */ "trebuchet ms", georgia, sans-serif;
+	padding: .5em 3em .5em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+/* ================================== personal ======================================== */
+
+#personal {
+	margin-top: 2%;
+	padding: 0% 1% 2% 1%;
+	background-color: #153414;
+	color: #fff;
+	-moz-box-shadow: 0px 3px 2px #000;
+	-webkit-box-shadow: 0px 3px 2px #000;
+	box-shadow: 0px 3px 2px #000;
+	border-radius: 7px;
+}
+.jasoninjapan {
+	float: left;
+	padding: 7% 1% 0% 0%;
+}
+
+.personalmessage {
+	text-align: justify;
+}
+
+/* ================================== web design ======================================== */
+
+#webdesign {
+	margin-top: 5%;
+	padding: 0% 1%;
+}
+.jasonsits {
+	float: right;
+	padding: 0% 1% 5% 0%;
+}
+#projectlist {
+	float: left;
+	padding: 0% 0% 0% 10%;
+}
+
+#projectlist li {
+	padding: 6%;
+}
+
+/* ================================== music ======================================== */
+
+#music {
+	clear: both;
+	margin-top: 5%;
+	background-color: #153414;
+	padding: 0% 1% 2% 1%;
+	-moz-box-shadow: 0px 3px 2px #000;
+	-webkit-box-shadow: 0px 3px 2px #000;
+	box-shadow: 0px 3px 2px #000;
+	border-radius: 7px;
+}
+
+.jasonsings {
+	float: left;
+	padding: 7% 1% 5% 0%;
+}
+
+#musicmessage {
+	color: #fff;
+	text-align: justify;
+}
+
+/* ================================== information ======================================== */
+
+
+#info {
+	clear: both;
+	padding: 0% 1%;
+}
+
+.jasonlaughs {
+	float: right;
+	padding: 6% 0% 0% 1%;
+}
+
+#infolist {
+	float: left;
+	color: #153414;
+}
+
+#infomessage {
+	text-align: justify;
+	color: #153414;
+}
+
+/* ================================== footer ======================================== */
+
+
+
